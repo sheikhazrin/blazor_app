@@ -1,0 +1,41 @@
+.master-view-container {
+    height: 100%;
+    align-items: stretch;
+}
+.group {
+    min-width: 50px;
+    min-height: 50px;
+    align-items: stretch;
+    position: relative;
+    flex-grow: 1;
+}
+.view-container {
+    position: relative;
+    flex-grow: 1;
+}
+.navbar {
+    height: max-content;
+    min-width: min-content;
+}
+.nav-drawer {
+    flex-shrink: 0;
+    width: 320px;
+    min-width: min-content;
+    min-height: 0;
+}
+.nav-drawer-item {
+    min-width: 0;
+    min-height: 0;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+.row-layout {
+    display: flex;
+}
+.column-layout {
+    display: flex;
+    flex-direction: column;
+}
